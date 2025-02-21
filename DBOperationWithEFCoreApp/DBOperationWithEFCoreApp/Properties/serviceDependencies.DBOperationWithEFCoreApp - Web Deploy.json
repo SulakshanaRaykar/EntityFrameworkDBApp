@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "mssql": {
+      "serviceConnectorResourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('serviceConnectorResourceGroupName')]/providers/Microsoft.Web/sites/DBOperationWithEFCoreApp/providers/Microsoft.ServiceLinker/linkers/ConnectionStringsDefaultConnection_D9D82E3AA0",
+      "secretStore": "AzureAppSettings",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/mybd-server/databases/mydb-database",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection",
+      "dynamicId": null
+    }
+  }
+}
